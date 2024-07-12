@@ -1,0 +1,62 @@
+*{
+   margin: 0; /* star is universal defector */
+   padding: 0;
+   box-sizing: border-box;
+}
+body
+{
+    
+    overflow-x: hidden;/* hide scroll bar in x axis*/
+    
+}
+.parallax-container
+{
+    background-color: orange;
+    min-height: 130vh;/* vh- view port height*/
+    position: relative;
+    z-index: -1;  /* it use for back*/
+}
+.parallax-container img
+{
+    position: absolute;
+    width: 100%;/* image right side no space*/
+}
+.parallax-container img.birds
+{
+    width: 30rem;/* birsd size small*/
+    opacity: 0.9; /* use transparency of element or image.  light ia allowed*/
+}
+.parallax-container h1
+{
+    font-size: 11rem;
+    color: white;
+    position: absolute;/* use for centre the paralax*/
+    top:30% ;
+    left: 50%;
+    transform:  translate(-50%,-50%);
+
+}
+.parallax-container img.land
+{
+    position: fixed;
+
+}
+
+
+.section{
+    background-color: black;/*background black*/
+    padding:7rem 3rem 3rem 3rem ;
+}
+.section h2,
+.section p{
+    color: white;
+}
+.section h2{
+    font-size: 3rem;
+}
+.section p{
+    font-size: 1rem;
+    padding-top: 1.3rem;
+    line-height: 1.8rem;
+}
+
